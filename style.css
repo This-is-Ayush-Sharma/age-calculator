@@ -1,0 +1,102 @@
+*{
+    font-family: cursive;
+    font-weight: bold;
+    font-style:initial;
+    font-size: 20px;
+}
+input[type="date"] {
+    -webkit-align-items: center;
+    display: -webkit-inline-flex;
+    overflow: hidden;
+    padding: 10px;
+    -webkit-padding-start: 1px;
+    width: auto;
+    background-color:white;
+    color:rgb(24, 24, 221);
+    border-radius: 9px;
+}
+
+input::-webkit-datetime-edit {
+   -webkit-flex: 1;
+   -webkit-user-modify: read-only !important;
+   display: inline-block;
+   min-width: 0;
+   overflow: hidden;
+}
+
+input::-webkit-datetime-edit-fields-wrapper {
+   -webkit-user-modify: read-only !important;
+   display: inline-block;
+   padding: 1px 0;
+   white-space: pre;
+}
+.conatiner{
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid red;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 7px;
+}
+.spn{
+    font-style: italic;
+    color: blue;
+    /* border:1px solid red; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(185, 248, 248);
+    border: 5px solid rgb(50, 214, 214);
+}
+button{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: beige;
+    color: navy;
+}
+button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(221, 228, 213);
+    color: rgb(0, 4, 255);
+}
+.display{
+    display:flex;
+    
+    /* background-color: red; */
+    height: 100px;
+    width: 270px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+}
+.year{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+label{
+    display: flex;
+    justify-content:center;
+    align-self: center;
+    padding: 20px;
+    border:3px solid black;
+}
