@@ -1,3 +1,3 @@
 # age-calculator
-- USing html css and java script.
+- Using html css and java script.
 - give it a try.
